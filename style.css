@@ -1,0 +1,172 @@
+@font-face {
+            font-family: 'Proxima Nova';
+            src: url('font/Proxima\ Nova\ Font.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            } 
+
+* {
+   margin: 0;
+   font-family: 'Proxima Nova', sans-serif;
+  }
+
+
+
+/* NAV BAR */
+.logoNav{
+  width: 10%;
+  height: auto;
+}
+
+.nav-bar-ul {
+  
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 33%;
+  padding-top: 12px;
+ 
+}
+
+.nav-bar{
+
+  display: flex;
+  padding: 28px;
+  justify-content: space-between;
+  font-size: 20px;
+} 
+
+
+nav a { 
+      text-decoration: none;  
+      color: rgb(28,28,28);
+     }  
+
+
+/* ---------------------------------------------------------------------  Main  ---------------------------------------------------------------------*/
+          
+
+.image_hero {
+  background-image: url(./images/landing.jpg);
+  background-size: cover; /* tamanho da imagem: cobrir o header todo com a imagem. (mas pode ser por exemplo "contain", para ficar apenas contida no header. Isto é util para quando temos uma imagem pequena e queremos preencher com um fundo da mesma cor.) */
+  background-position: top center; /* posição da da imagem: centrada a partir de cima */
+  width: 100%; /* largura do header (neste caso 100% da largura da página) */
+  height: 1000px; /* altura do header (aqui devemos usar a dimensão da imagem) */
+  margin: 0; /* margem do "layout" (margens de fora) */
+  margin-top: 5px;
+  }
+
+
+.hero_text {
+            color: rgb(255, 255, 255);
+            font-family: 'Proxima Nova', sans-serif;
+            font-size: 40px;
+            line-height: 40px;
+            text-align: center;
+            position: absolute;
+            top: 530px;
+            left: 24%; 
+            /*width: 360px; */
+           }              
+
+.space {
+  padding-top: 25px;
+ }
+
+
+/* SECTION 02  */
+h2{
+  color: #00B172;
+  font-size: 35px;
+  }
+  .section2{
+      padding: 50px;
+      text-align: center;
+  }
+  .section2 h1{
+      font-size:35px ;
+      text-decoration: underline;
+      text-decoration-color: #00B172;
+      
+  }
+  .music-img{
+      width: 27%;
+  }
+  .icon-img{
+      width: 27%;
+  }
+  .device-img{
+      width: 27%;
+  }
+  .triple-icon{
+      display: flex;
+      padding: auto;
+      
+  }
+  .triple-icon p{
+      font-size: 30px;
+      text-align: center;
+      color:#1A1A1A;
+  }
+  .songs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+    
+  
+  }
+  .music{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+  }
+  .stream{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+  }
+  
+  /* SECTION 03 */
+  .section3{
+  background-color: #00B172;
+  display: flex;
+  background-size: cover;
+  color: white;
+  margin: 15px;
+  padding: 15px;
+  font-size: 25px;
+  
+  }
+  
+  .spotify_white{
+      width: 30%;
+    
+      
+  }
+  .final-img1{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  
+  }
+  .final-img2{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 800px;
+  }
+      
+  .final-text{
+      padding: 25px;
+      width: 55%;
+      line-height: 60px;
+  }
+  .app-img{
+      width: 80%;
+      padding: 20px;
+  }
